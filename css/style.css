@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body{
+	width: 100%;
+	height: 100%;
+	font-family:  'Montserrat', sans-serif;
+}
+.wrapper{
+	margin: 0 auto;
+	width: 1000px;
+}
+.left-column{
+	display: inline-block;
+	width:50%;
+	float: left;
+}
+.right-column{
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+}
+.photo{
+	    height: 664px;
+	    overflow: hidden;
+}
+.photo img{
+	width: 490px;
+}
+.two-colums{
+	margin-top: 5px;
+	width: 100%;
+}
+.label{
+	width: 150px;
+	margin-top: 20px;
+	padding: 5px;
+	text-align: center;
+	vertical-align: middle;
+	background: rgb(241, 206, 0);
+	font-weight: bold;
+}
+.title{
+	margin-top: 45px;
+	font-weight: bold;
+}
+.text{
+	margin-top: 10px;
+	color: #555;
+}
+.progress-bar{
+    width: 480px;
+    border: 2px solid rgb(178, 178, 178);
+    padding: 2px;
+    border-radius: 15px;
+}
+.progress-line{
+    background: rgb(178, 178, 178);
+    border-radius: 11px;
+    width: 95%;
+    text-align: center;
+    color: #fff;
+}
+.software-progress-line{
+	width: 90%;
+}
+.footer{
+	margin-top: 10px;
+	float: left;
+	width: 100%;
+	background: rgb(241, 206, 0);
+	height: 40px;
+}
+.nomargin{
+	margin-top: 0;
+}
+.polosa{
+	background: rgb(231, 233, 233);
+	height: 2px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.date{
+	margin-top: 15px;
+}
