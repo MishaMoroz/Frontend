@@ -1,83 +1,165 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
 body{
 	width: 100%;
 	height: 100%;
 	font-family:  'Montserrat', sans-serif;
 }
-.wrapper{
+.mm{
 	margin: 0 auto;
-	width: 1000px;
+	width: 1120px;
 }
 .left-column{
 	display: inline-block;
-	width:50%;
-	float: left;
 }
 .right-column{
 	display: inline-block;
 	vertical-align: top;
-	width: 50%;
+	width: 680px;
+	margin-left: 45px;
 }
-.photo{
-	    height: 664px;
-	    overflow: hidden;
+.mm__header{
+	margin-top: 104px;
+	font-family: 'Didact Gothic', sans-serif;
 }
-.photo img{
-	width: 490px;
+.mm__header_name{    
+	font-weight: 100;
+	font-size: 45px;
+	margin: 0;
+}
+.mm__header_prof{
+	margin-top: 10px;
+	font-size: 25px;
+	font-weight: 100;
+}
+.mm__header_info{
+	margin-top: 40px;
+	color: #acacac;
+}
+.mm__header_info-tel, .mm__header_info-mail{
+	color: #acacac;
+}
+main{
+	margin-top: 20px;
+}
+.mm__photo_img{
+	width: 390px;
 }
 .two-colums{
 	margin-top: 5px;
 	width: 100%;
 }
-.label{
-	width: 150px;
-	margin-top: 20px;
-	padding: 5px;
-	text-align: center;
-	vertical-align: middle;
-	background: rgb(241, 206, 0);
-	font-weight: bold;
+.mm__skills{
+	margin-top: 30px;
 }
-.title{
-	margin-top: 45px;
-	font-weight: bold;
+.mm__software{
+	margin-top: 35px;
 }
-.text{
-	margin-top: 10px;
+.mm__skills_text{
+	margin-top: 23px;
 	color: #555;
 }
-.progress-bar{
-    width: 480px;
-    border: 2px solid rgb(178, 178, 178);
-    padding: 2px;
-    border-radius: 15px;
+.label{
+	display: inline-block;
+	padding: 11px 31px;
+	text-align: center;
+	vertical-align: middle;
+	background: rgb(249, 233, 0);
+	font-weight: bold;
+	font-size: 19px;;
 }
-.progress-line{
-    background: rgb(178, 178, 178);
-    border-radius: 11px;
-    width: 95%;
-    text-align: center;
-    color: #fff;
+.text{
+	color: #555;
+	line-height: 28px;
+}
+.mm__skills_progress-bar{
+	width: 80%;
+	margin-top: 10px;
+	border: 1px solid rgb(178, 178, 178);
+	height: 9px;
+}
+.mm__skills_progress-line{
+	background: rgb(178, 178, 178);
+	width: 95%;
+	text-align: center;
+	color: #fff;
+	height: 100%;
 }
 .software-progress-line{
 	width: 90%;
 }
-.footer{
+.mm__about_text{
+	margin-top: 29px;
+	color: #555;
+	line-height: 28px;
+}
+.mm__education{
+	margin-top: 30px;
+}
+.mm__education_block{
+	margin-top: 42px;
+}
+.mm__education_block-date{
+	display: inline-block;
+	color: #acacac;
+	width: 175px;
+}
+.mm__education_block-place{
+	display: inline-block;
+}
+.mm__portfolio{
+	margin-top: 35px;
+}
+.mm__reference{
+	margin-top: 30px;
+
+}
+.mm__portfolio_block{
+	margin-top: 43px;
+}
+.mm__portfolio_block-date{
+	color: #acacac;
+	font-style: italic;
+}
+.mm__portfolio_block-title{
+	margin-top: 27px;
+	font-weight: 900;
+}
+.mm__portfolio_block-text{
+	margin-top: 7px;
+	color: #acacac;
+}
+
+.mm__header_line{
+	background: rgb(231, 233, 233);
+	height: 2px;
+	width: 100%;
+	margin-top: 45px;
+}
+.mm__reference_left-column{
+	display: inline-block;
+	width: 50%;
+}
+.mm__reference_right-column{
+	display: inline-block;
+}
+.mm__reference_title{
+	margin-top: 18px;
+	font-weight: 900;
+	font-size: 18px;
+}
+.mm__reference_text{
 	margin-top: 10px;
+	color: #acacac;
+}
+.mm__reference_text-prof{
+	margin-top: 10px;
+	color: #000;
+}
+.footer{
+	margin-top: 50px;
 	float: left;
 	width: 100%;
 	background: rgb(241, 206, 0);
 	height: 40px;
-}
-.nomargin{
-	margin-top: 0;
-}
-.polosa{
-	background: rgb(231, 233, 233);
-	height: 2px;
-	width: 100%;
-	margin-bottom: 20px;
-}
-.date{
-	margin-top: 15px;
 }
